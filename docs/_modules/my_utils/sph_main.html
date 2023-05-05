@@ -76,17 +76,36 @@
 
 <span class="sd">    説明の追加は日本語でもいける？</span>
 <span class="sd">    なんかいろいろ書いてもよさそう</span>
-<span class="sd">    TODO:これとか同じ感じで入る？</span>
-
-<span class="sd">    NOTE: これはノートです</span>
-
+<span class="sd">    Todo:</span>
+<span class="sd">        Todo.これとか同じ感じで入る？</span>
+<span class="sd">    </span>
 <span class="sd">    Args:</span>
 <span class="sd">        a (int): first number...</span>
 <span class="sd">        b (int): second number</span>
 
 <span class="sd">    Returns:</span>
 <span class="sd">        int: sum of a and b</span>
+
+<span class="sd">    Notes: </span>
+<span class="sd">        これはノートです</span>
+<span class="sd">    </span>
+<span class="sd">    Note:</span>
+<span class="sd">        これもノートです</span>
+
+<span class="sd">    Warnings: </span>
+<span class="sd">        これはワーニングです</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: aとbはintである必要があります</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; add_number(1,2)</span>
+
+<span class="sd">    Tip:</span>
+<span class="sd">        https://www.sphinx-doc.org/ja/master/usage/extensions/napoleon.html</span>
 <span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span> <span class="ow">or</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;a and b must be int&quot;</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span></div>
 </pre></div>
 
