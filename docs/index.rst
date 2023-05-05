@@ -1,15 +1,16 @@
-.. sphinx-test documentation master file, created by
-   sphinx-quickstart on Fri May  5 12:10:48 2023.
+.. my_utils documentation master file, created by
+   sphinx-quickstart on Fri May  5 14:00:05 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to sphinx-test's documentation!
-=======================================
+Welcome to taro trying sphinx documentation!
+=============================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
+   my_utils
 
 
 Indices and tables
