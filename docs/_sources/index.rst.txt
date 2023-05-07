@@ -11,6 +11,7 @@ Welcome to taro trying sphinx documentation!
    :caption: Contents:
 
    my_utils
+   dir2
 
 
 Indices and tables

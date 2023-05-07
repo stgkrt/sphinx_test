@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>my_utils.sph_main &mdash; sphinx_test  ドキュメント</title>
+  <title>dir2.sph_main_2 &mdash; sphinx_test  ドキュメント</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -62,7 +62,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../index.html">モジュールコード</a></li>
-      <li class="breadcrumb-item active">my_utils.sph_main</li>
+      <li class="breadcrumb-item active">dir2.sph_main_2</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -71,9 +71,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <h1>my_utils.sph_main のソースコード</h1><div class="highlight"><pre>
-<div class="viewcode-block" id="add_number"><a class="viewcode-back" href="../../my_utils.html#my_utils.sph_main.add_number">[ドキュメント]</a><span></span><span class="k">def</span> <span class="nf">add_number</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot; simpe add function</span>
+  <h1>dir2.sph_main_2 のソースコード</h1><div class="highlight"><pre>
+<div class="viewcode-block" id="sub_number"><a class="viewcode-back" href="../../dir2.html#dir2.sph_main_2.sub_number">[ドキュメント]</a><span></span><span class="k">def</span> <span class="nf">sub_number</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot; simpe sub function</span>
 
 <span class="sd">    説明の追加は日本語でもいける？</span>
 <span class="sd">    なんかいろいろ書いてもよさそう</span>
@@ -85,7 +85,7 @@
 <span class="sd">        b (int): second number</span>
 
 <span class="sd">    Returns:</span>
-<span class="sd">        int: sum of a and b</span>
+<span class="sd">        int: subtraction of a and b</span>
 
 <span class="sd">    Notes: </span>
 <span class="sd">        これはノートです</span>
@@ -100,14 +100,14 @@
 <span class="sd">        ValueError: aとbはintである必要があります</span>
 
 <span class="sd">    Examples:</span>
-<span class="sd">        &gt;&gt;&gt; add_number(1,2)</span>
+<span class="sd">        &gt;&gt;&gt; sub_number(1,2)</span>
 
 <span class="sd">    Tip:</span>
 <span class="sd">        https://www.sphinx-doc.org/ja/master/usage/extensions/napoleon.html</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span> <span class="ow">or</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
         <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;a and b must be int&quot;</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span></div>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span></div>
 </pre></div>
 
            </div>
