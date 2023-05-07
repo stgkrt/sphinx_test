@@ -10,3 +10,5 @@ sphinx-build -b html source/ build/
 ## open 
 open build/index.html
 
+## test
+python -m pytest tests/test_numbers.py
