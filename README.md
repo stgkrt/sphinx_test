@@ -7,8 +7,10 @@ sphinx-apidoc -F -o docs/ src/
 ## add api
 sphinx-apidoc -o source/ ./api-directory
 
+
 ## build
 sphinx-build -b html source/ build/
+->sphinx-build -b html source/ docs/
 
 ## open 
 open build/index.html
